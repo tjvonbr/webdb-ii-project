@@ -8,6 +8,6 @@ const server = express();
 server.use(helmet());
 server.use(express.json());
 
-server.use('/api/car-dealer', dealerRouter);
+server.use('/api/dealer', dealerRouter);
 
 module.exports = server;
